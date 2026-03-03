@@ -1,56 +1,167 @@
 <!doctype html>
 <html>
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Zhenhao Sng – Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zhenhao Sng</title>
+
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; max-width: 900px; line-height: 1.5; }
-    h1 { margin-bottom: 0; }
-    .tagline { margin-top: 6px; color: #444; }
-    .card { border: 1px solid #ddd; padding: 16px; border-radius: 10px; margin: 14px 0; }
-    a { color: #111; }
-    .meta { color: #555; font-size: 14px; margin-top: 6px; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      margin: 70px auto;
+      max-width: 900px;
+      line-height: 1.6;
+      color: #111;
+      padding: 0 20px;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 6px;
+    }
+
+    .tagline {
+      color: #666;
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      margin-top: 55px;
+      font-size: 22px;
+    }
+
+    .card {
+      border: 1px solid #eee;
+      padding: 20px;
+      border-radius: 14px;
+      margin-bottom: 18px;
+      transition: 0.2s ease;
+    }
+
+    .card:hover {
+      border-color: #111;
+    }
+
+    .meta {
+      font-size: 14px;
+      color: #666;
+      margin-top: 6px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #111;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      margin-top: 70px;
+      font-size: 14px;
+      color: #666;
+    }
   </style>
 </head>
+
 <body>
-  <h1>Zhenhao Sng</h1>
-  <div class="tagline">AI • Systems • Analytics • Innovation</div>
 
-  <h2>Featured Projects</h2>
+<h1>Zhenhao Sng</h1>
+<p class="tagline">AI • Computer Vision • Sustainability • Forecasting • Finance</p>
 
-  <div class="card">
-    <h3>PandaBot – AI Mobility Robotics (CQU x SUTD)</h3>
-    <div class="meta">Computer vision • assistive robotics • safety + ethics</div>
-    <p>AI-enabled assistive robot concept for elderly mobility in mountainous cities, with CNN-based person detection and safety mechanisms.</p>
-    <p><a href="slides/pandaBot_cqu.pdf">View slides (PDF)</a></p>
+<p>
+I build data-driven systems that combine machine learning, sustainability modelling,
+and financial reasoning to address real-world operational and strategic problems.
+</p>
+
+<!-- AI / SYSTEMS -->
+<h2>AI & Systems Projects</h2>
+
+<div class="card">
+  <a href="slides/cqu_pandabot_ai_mobility.pdf">AI Mobility Robotics (CQU x SUTD)</a>
+  <div class="meta">
+    Designed a computer vision-assisted mobility concept (“PandaBot”) for elderly users.
+    Focused on detection logic, safety integration, and scalable deployment thinking.
   </div>
+</div>
 
-  <div class="card">
-    <h3>ThreadAhead – KSMB Logistics & Demand Forecasting (PCU x SUTD)</h3>
-    <div class="meta">Forecasting • operations • Streamlit dashboard</div>
-    <p>AI-enabled management prototype for Koperasi Sumber Mulia Barokah to anticipate seasonal demand and improve planning and task allocation.</p>
-    <p><a href="slides/threadAhead_ksmb.pdf">View slides (PDF)</a></p>
+<div class="card">
+  <a href="slides/ddw_llm_carbon_calculator.pdf">LLM Carbon Emissions Calculator (DDW)</a>
+  <div class="meta">
+    Built a multi-linear regression model to estimate carbon emissions of LLM training configurations.
+    Selected for further development under the Science for a Sustainable World module.
   </div>
+</div>
 
-  <div class="card">
-    <h3>Jack All – Workforce Innovation (VinUniversity)</h3>
-    <div class="meta">SaaS strategy • financial modelling • go-to-market</div>
-    <p>SaaS platform concept enabling short-term job trials to build a resilient generalist workforce in Vietnam.</p>
-    <p><a href="slides/jackall_vinuni.pdf">View slides (PDF)</a></p>
+<div class="card">
+  <a href="slides/dti_cv_bird_deterrent.pdf">DTI 2025 – Computer Vision Bird Deterrent</a>
+  <div class="meta">
+    Developed a CV-triggered mechanical bird-scaring system for SUTD canteen.
+    Integrated detection logic with physical actuation.
   </div>
+</div>
 
-  <h2>Awards</h2>
-  <ul>
-    <li>Sustainability Design Prize (DTI 2025) – Life Cycle Analysis (LCA)</li>
-    <li>Best Project – 10.020 Data Driven World</li>
-    <li>Top 3 Project – Design Thinking Project III Showcase 2025</li>
-  </ul>
+<div class="card">
+  <a href="slides/pcu_threadahead_logistics.pdf">ThreadAhead – Logistics & Workflow System</a>
+  <div class="meta">
+    Proposed forecasting-informed workflow optimisation for a cooperative in Indonesia,
+    addressing demand volatility and operational bottlenecks.
+  </div>
+</div>
 
-  <h2>Contact</h2>
-  <ul>
-    <li>Email: your@email.com</li>
-    <li>GitHub: <a href="https://github.com/YOURUSERNAME">github.com/YOURUSERNAME</a></li>
-  </ul>
+<div class="card">
+  <a href="slides/molarData_china_cv_internship.pdf">MolarData – Computer Vision Internship (China)</a>
+  <div class="meta">
+    Contributed to object identification model training workflows, dataset preparation,
+    and standard computer vision model development processes.
+  </div>
+</div>
+
+<!-- FINANCE -->
+<h2>Finance & Markets</h2>
+
+<div class="card">
+  <a href="slides/cfa_research_challenge_internal_2024.pdf">CFA Research Challenge – Internal Selection (2024)</a>
+  <div class="meta">
+    Conducted equity research, valuation modelling, and investment thesis development
+    for school-level CFA Research Challenge selection.
+  </div>
+</div>
+
+<div class="card">
+  <a href="slides/ntu_stock_pitch_2025.pdf">Nanyang Capital Stock Pitch Challenge (NTU 2025)</a>
+  <div class="meta">
+    Developed and presented an investment thesis including valuation,
+    catalysts, and risk analysis.
+  </div>
+</div>
+
+<!-- ENTREPRENEURSHIP -->
+<h2>Entrepreneurship</h2>
+
+<div class="card">
+  <a href="slides/vinuni_workforce_saas_pitch.pdf">VinUniversity – Workforce SaaS Platform</a>
+  <div class="meta">
+    Designed a scalable workforce “sandbox” platform addressing skills mismatch,
+    including revenue model and market expansion strategy.
+  </div>
+</div>
+
+<!-- GITHUB -->
+<h2>Code & Repositories</h2>
+
+<div class="card">
+  <a href="https://github.com/froyosng">View GitHub Profile →</a>
+  <div class="meta">
+    Machine learning experiments, forecasting models, analytics tools, and prototypes.
+  </div>
+</div>
+
+<p class="footer">
+Built with GitHub Pages • 2026
+</p>
+
 </body>
 </html>
